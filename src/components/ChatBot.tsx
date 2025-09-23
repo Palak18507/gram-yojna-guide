@@ -22,7 +22,9 @@ interface Message {
 const defaultPrompts = [
   "Show me all schemes for my village",
   "I am a farmer, what schemes can I use?",
-  "Tell me the top 3 schemes for forest-dependent villages"
+  "Tell me about health insurance schemes",
+  "Which schemes are best for small businesses?",
+  "What pension schemes are available?"
 ];
 
 const ChatBot = () => {

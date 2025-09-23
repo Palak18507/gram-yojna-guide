@@ -22,13 +22,13 @@ const getSchemeBadgeClass = (category: string) => {
     employment: 'scheme-employment',
     housing: 'scheme-housing',
     education: 'scheme-education',
-    forest: 'scheme-agriculture', // Use agriculture color for forest schemes
-    digital: 'scheme-employment',
-    pension: 'scheme-health',
-    water: 'scheme-health',
-    infrastructure: 'scheme-employment',
-    sanitation: 'scheme-health',
-    energy: 'scheme-housing'
+    forest: 'scheme-forest',
+    energy: 'scheme-energy',
+    finance: 'scheme-finance',
+    pension: 'scheme-pension',
+    digital: 'scheme-digital',
+    sanitation: 'scheme-sanitation',
+    water: 'scheme-water'
   };
   
   return categoryMap[category] || 'scheme-agriculture';
@@ -42,12 +42,12 @@ const getCategoryIcon = (category: string) => {
     housing: '🏠',
     education: '📚',
     forest: '🌲',
-    digital: '💻',
+    energy: '⚡',
+    finance: '💰',
     pension: '👴',
-    water: '💧',
-    infrastructure: '🛣️',
+    digital: '💻',
     sanitation: '🚰',
-    energy: '⚡'
+    water: '💧'
   };
   
   return iconMap[category] || '📋';

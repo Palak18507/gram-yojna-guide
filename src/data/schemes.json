@@ -5,86 +5,93 @@
       "name": "PM-KISAN",
       "fullName": "Pradhan Mantri Kisan Samman Nidhi",
       "category": "agriculture",
-      "description": "Direct income support of ₹6,000 per year to all farmer families owning cultivable land.",
+      "description": "Income support of ₹6,000/year for small/marginal farmers.",
       "benefits": [
         "₹2,000 per instalment, 3 times a year",
         "Direct transfer to bank account",
         "No land size limit for eligibility"
       ],
       "eligibility": [
-        "Small and marginal farmer families",
+        "All small and marginal farmers",
         "Landholding farmers across the country",
         "Aadhaar card mandatory"
       ],
       "targetAudience": ["farmers", "agriculture"],
-      "keywords": ["kisan", "farmer", "agriculture", "income", "support"]
+      "keywords": ["kisan", "farmer", "agriculture", "income", "support"],
+      "link": "https://pmkisan.gov.in",
+      "suggestion": "Check if you're eligible! 🌱"
     },
     {
       "id": "mgnrega",
       "name": "MGNREGA",
       "fullName": "Mahatma Gandhi National Rural Employment Guarantee Act",
       "category": "employment",
-      "description": "Guarantees 100 days of wage employment per year to rural households.",
+      "description": "Provides at least 100 days of wage employment per year.",
       "benefits": [
         "Guaranteed 100 days employment per household",
-        "Minimum wage rates as per state government",
+        "Wages for work done, social security",
         "Work within 5km of residence"
       ],
       "eligibility": [
-        "Adult members of rural households",
-        "Willing to do manual unskilled work",
+        "Adult rural household members willing to do unskilled work",
         "Job card registration required"
       ],
       "targetAudience": ["rural", "employment", "labor"],
-      "keywords": ["employment", "work", "wages", "rural", "job"]
+      "keywords": ["employment", "work", "wages", "rural", "job", "nrega"],
+      "link": "https://nrega.nic.in",
+      "suggestion": "If you need work, this is a good option 💡"
     },
     {
       "id": "pmay-gramin",
       "name": "PMAY-G",
       "fullName": "Pradhan Mantri Awas Yojana - Gramin",
       "category": "housing",
-      "description": "Provides pucca houses with basic amenities to houseless and those living in kutcha houses in rural areas.",
+      "description": "Affordable housing for urban and rural poor.",
       "benefits": [
         "₹1.2 lakh assistance in plain areas",
         "₹1.3 lakh in hilly/difficult areas",
-        "90 sq. ft. minimum area with basic amenities"
+        "Subsidy on home loans"
       ],
       "eligibility": [
-        "Houseless families and those with kutcha houses",
+        "EWS and LIG families",
         "Families not owning a pucca house",
         "Priority to SC/ST, minorities, and women-headed households"
       ],
       "targetAudience": ["housing", "rural", "shelter"],
-      "keywords": ["house", "housing", "awas", "shelter", "construction"]
+      "keywords": ["house", "housing", "awas", "shelter", "construction"],
+      "link": "https://pmaymis.gov.in",
+      "suggestion": "You might benefit if you need housing support 🏠"
     },
     {
       "id": "ayushman-bharat",
       "name": "Ayushman Bharat",
       "fullName": "Pradhan Mantri Jan Arogya Yojana",
       "category": "health",
-      "description": "Largest health insurance scheme providing coverage up to ₹5 lakh per family per year.",
+      "description": "Health insurance coverage up to ₹5 lakh per family per year.",
       "benefits": [
         "₹5 lakh coverage per family per year",
-        "Cashless treatment in empaneled hospitals",
+        "Cashless hospitalization",
         "Coverage for pre and post hospitalization"
       ],
       "eligibility": [
+        "Poor and vulnerable families",
         "Families identified in SECC-2011 database",
-        "Rural families with specific deprivation criteria",
-        "Urban families in occupational categories"
+        "Rural families with specific deprivation criteria"
       ],
       "targetAudience": ["health", "medical", "insurance"],
-      "keywords": ["health", "medical", "insurance", "hospital", "treatment"]
+      "keywords": ["health", "medical", "insurance", "hospital", "treatment"],
+      "link": "https://www.pmjay.gov.in",
+      "suggestion": "Check if your family is eligible for free healthcare 💡"
     },
     {
       "id": "pm-fasal-bima",
       "name": "PM Fasal Bima Yojana",
       "fullName": "Pradhan Mantri Fasal Bima Yojana",
       "category": "agriculture",
-      "description": "Crop insurance scheme providing financial support to farmers in case of crop failure.",
+      "description": "Insurance to protect farmers against crop loss.",
       "benefits": [
         "Low premium rates: 2% for Kharif, 1.5% for Rabi",
-        "Coverage for natural calamities, pests & diseases",
+        "Insurance coverage and compensation",
         "Quick settlement of claims"
       ],
       "eligibility": [
@@ -93,7 +100,219 @@
         "Tenant farmers with proper documentation"
       ],
       "targetAudience": ["farmers", "agriculture", "insurance"],
-      "keywords": ["crop", "insurance", "fasal", "bima", "farmer"]
+      "keywords": ["crop", "insurance", "fasal", "bima", "farmer"],
+      "link": "https://pmfby.gov.in",
+      "suggestion": "Safeguard your crops with this scheme 🌱"
+    },
+    {
+      "id": "pm-ujjwala",
+      "name": "Ujjwala Yojana",
+      "fullName": "Pradhan Mantri Ujjwala Yojana",
+      "category": "energy",
+      "description": "Free LPG connections for women from BPL households.",
+      "benefits": [
+        "Free LPG connection worth ₹1,600",
+        "Free LPG connection, subsidy on refill",
+        "Support for safe cooking fuel"
+      ],
+      "eligibility": [
+        "Women from BPL households",
+        "Women aged 18 and above from BPL families",
+        "Priority to SC/ST, PMAY, AAY families"
+      ],
+      "targetAudience": ["energy", "cooking", "women"],
+      "keywords": ["lpg", "gas", "cooking", "ujjwala", "fuel"],
+      "link": "https://pmuy.gov.in",
+      "suggestion": "If you don't have LPG, this is very useful 💡"
+    },
+    {
+      "id": "national-rural-livelihood-mission",
+      "name": "National Rural Livelihood Mission",
+      "fullName": "Deendayal Antyodaya Yojana - National Rural Livelihoods Mission",
+      "category": "employment",
+      "description": "Supports self-employment for rural poor.",
+      "benefits": [
+        "Training, financial support, micro-enterprise opportunities",
+        "Skill development and capacity building",
+        "Market linkage support"
+      ],
+      "eligibility": [
+        "Rural women and households",
+        "Poor and vulnerable families",
+        "Self Help Group members"
+      ],
+      "targetAudience": ["rural", "women", "employment", "livelihood"],
+      "keywords": ["livelihood", "rural", "women", "self help group", "microfinance"],
+      "link": "https://aajeevika.gov.in",
+      "suggestion": "Could help start a small business 🌱"
+    },
+    {
+      "id": "jan-dhan-yojana",
+      "name": "Jan Dhan Yojana",
+      "fullName": "Pradhan Mantri Jan Dhan Yojana",
+      "category": "finance",
+      "description": "Financial inclusion for all households.",
+      "benefits": [
+        "Zero balance account, insurance, debit card",
+        "Overdraft facility up to ₹10,000",
+        "RuPay debit card with accident insurance"
+      ],
+      "eligibility": [
+        "All Indian citizens without a bank account",
+        "No minimum balance requirement",
+        "Age 10 years and above"
+      ],
+      "targetAudience": ["finance", "banking", "inclusion"],
+      "keywords": ["bank", "account", "jan dhan", "finance", "insurance"],
+      "link": "https://pmjdy.gov.in",
+      "suggestion": "Open a bank account if you don't have one 💡"
+    },
+    {
+      "id": "skill-india",
+      "name": "Skill India",
+      "fullName": "Pradhan Mantri Kaushal Vikas Yojana",
+      "category": "education",
+      "description": "Upskill youth to improve employability.",
+      "benefits": [
+        "Certified courses, job opportunities",
+        "Financial rewards for successful candidates",
+        "Industry-relevant skill training"
+      ],
+      "eligibility": [
+        "Youth and working professionals",
+        "Age 15-45 years",
+        "School/college dropouts priority"
+      ],
+      "targetAudience": ["youth", "education", "skills", "employment"],
+      "keywords": ["skill", "training", "employment", "youth", "kaushal"],
+      "link": "https://www.skillindia.gov.in",
+      "suggestion": "Enhance your skills for better jobs 🌱"
+    },
+    {
+      "id": "atal-pension-yojana",
+      "name": "Atal Pension Yojana",
+      "fullName": "Atal Pension Yojana",
+      "category": "pension",
+      "description": "Encourages savings for retirement.",
+      "benefits": [
+        "Guaranteed pension ₹1000–5000 after 60 years",
+        "Government co-contribution for eligible subscribers",
+        "Tax benefits under section 80CCD"
+      ],
+      "eligibility": [
+        "Unorganized sector workers aged 18-40",
+        "Citizens with bank account",
+        "Not covered under statutory social security schemes"
+      ],
+      "targetAudience": ["pension", "retirement", "savings"],
+      "keywords": ["pension", "retirement", "atal", "savings", "old age"],
+      "link": "https://www.npscra.nsdl.co.in",
+      "suggestion": "Start early for a comfortable retirement 💡"
+    },
+    {
+      "id": "rashtriya-swasthya-bima-yojana",
+      "name": "Rashtriya Swasthya Bima Yojana",
+      "fullName": "Rashtriya Swasthya Bima Yojana",
+      "category": "health",
+      "description": "Health insurance for BPL families.",
+      "benefits": [
+        "Cashless health insurance for hospitalization",
+        "Coverage up to ₹30,000 per family per year",
+        "Pre-existing disease coverage"
+      ],
+      "eligibility": [
+        "BPL families",
+        "Families identified through BPL census",
+        "Specific occupational categories"
+      ],
+      "targetAudience": ["health", "insurance", "BPL"],
+      "keywords": ["health", "insurance", "bpl", "rashtriya", "swasthya"],
+      "link": "https://rsby.gov.in",
+      "suggestion": "Enroll to protect your family from medical expenses 💡"
+    },
+    {
+      "id": "swachh-bharat-mission",
+      "name": "Swachh Bharat Mission",
+      "fullName": "Swachh Bharat Mission - Gramin",
+      "category": "sanitation",
+      "description": "Promotes cleanliness and sanitation across India.",
+      "benefits": [
+        "Access to toilets, sanitation awareness",
+        "₹12,000 incentive for toilet construction",
+        "Local project grants"
+      ],
+      "eligibility": [
+        "Open for all citizens",
+        "Rural households without access to toilets",
+        "Community participation essential"
+      ],
+      "targetAudience": ["sanitation", "toilet", "hygiene"],
+      "keywords": ["toilet", "sanitation", "swachh", "clean", "hygiene"],
+      "link": "https://swachhbharatmission.gov.in",
+      "suggestion": "Contribute to your village or town's cleanliness 🌿"
+    },
+    {
+      "id": "digital-india",
+      "name": "Digital India",
+      "fullName": "Digital India Programme",
+      "category": "digital",
+      "description": "Transform India into a digitally empowered society.",
+      "benefits": [
+        "Digital services, e-governance, Wi-Fi access",
+        "Online government services",
+        "Digital literacy programs"
+      ],
+      "eligibility": [
+        "All citizens, businesses, government departments",
+        "No specific eligibility criteria",
+        "Focus on rural and underserved areas"
+      ],
+      "targetAudience": ["digital", "technology", "governance"],
+      "keywords": ["digital", "online", "technology", "internet", "e-governance"],
+      "link": "https://www.digitalindia.gov.in",
+      "suggestion": "Explore digital services available in your area 💡"
+    },
+    {
+      "id": "pm-shram-yogi-mandhan",
+      "name": "PM Shram Yogi Maan-dhan",
+      "fullName": "Pradhan Mantri Shram Yogi Maan-dhan",
+      "category": "pension",
+      "description": "Pension for unorganized workers after 60 years.",
+      "benefits": [
+        "Monthly pension of ₹3000",
+        "Family pension in case of death during contribution",
+        "Government co-contribution equal to worker's contribution"
+      ],
+      "eligibility": [
+        "Workers aged 18-40",
+        "Unorganized sector workers",
+        "Monthly income up to ₹15,000"
+      ],
+      "targetAudience": ["pension", "worker", "retirement"],
+      "keywords": ["pension", "retirement", "worker", "shram", "yogi"],
+      "link": "https://www.pmsy.gov.in",
+      "suggestion": "Consider this for long-term financial security 💡"
+    },
+    {
+      "id": "national-scholarship-portal",
+      "name": "National Scholarship Portal",
+      "fullName": "National Scholarship Portal",
+      "category": "education",
+      "description": "Financial support for students from class 1 to PhD.",
+      "benefits": [
+        "Scholarships directly into bank accounts",
+        "Various scholarships for different categories",
+        "Merit and need-based support"
+      ],
+      "eligibility": [
+        "Students eligible for various scholarships",
+        "Different criteria for different schemes",
+        "Income and merit-based eligibility"
+      ],
+      "targetAudience": ["students", "education", "scholarship"],
+      "keywords": ["scholarship", "education", "student", "study", "financial aid"],
+      "link": "https://scholarships.gov.in",
+      "suggestion": "Check which scholarships you can apply for 🌱"
     },
     {
       "id": "pm-mudra",
@@ -112,83 +331,9 @@
         "Income generating activities"
       ],
       "targetAudience": ["business", "entrepreneur", "loan"],
-      "keywords": ["loan", "mudra", "business", "micro", "enterprise"]
-    },
-    {
-      "id": "swachh-bharat-mission",
-      "name": "Swachh Bharat Mission",
-      "fullName": "Swachh Bharat Mission - Gramin",
-      "category": "sanitation",
-      "description": "Aims to achieve universal sanitation coverage in rural areas through toilet construction.",
-      "benefits": [
-        "₹12,000 incentive for toilet construction",
-        "Technical assistance and monitoring",
-        "Community mobilization support"
-      ],
-      "eligibility": [
-        "Households without access to toilets",
-        "Rural households below poverty line get priority",
-        "Community participation essential"
-      ],
-      "targetAudience": ["sanitation", "toilet", "hygiene"],
-      "keywords": ["toilet", "sanitation", "swachh", "clean", "hygiene"]
-    },
-    {
-      "id": "pm-ujjwala",
-      "name": "Ujjwala Yojana",
-      "fullName": "Pradhan Mantri Ujjwala Yojana",
-      "category": "energy",
-      "description": "Provides free LPG connections to women from BPL households.",
-      "benefits": [
-        "Free LPG connection worth ₹1,600",
-        "EMI facility for stove and refill",
-        "Support for safe cooking fuel"
-      ],
-      "eligibility": [
-        "Women aged 18 and above from BPL families",
-        "Must not have LPG connection in household",
-        "Priority to SC/ST, PMAY, AAY families"
-      ],
-      "targetAudience": ["energy", "cooking", "women"],
-      "keywords": ["lpg", "gas", "cooking", "ujjwala", "fuel"]
-    },
-    {
-      "id": "pm-kisan-fpo",
-      "name": "PM-FPO",
-      "fullName": "Pradhan Mantri Formalization of Micro Food Processing Enterprises",
-      "category": "agriculture",
-      "description": "Support to Farmer Producer Organizations for better market access and value addition.",
-      "benefits": [
-        "₹15 lakh grant for FPOs in plains",
-        "₹33 lakh grant for FPOs in NE/Hills",
-        "Capacity building and training support"
-      ],
-      "eligibility": [
-        "Registered Farmer Producer Organizations",
-        "Minimum 300 farmers for plains, 100 for hills",
-        "Focus on value chain development"
-      ],
-      "targetAudience": ["farmers", "organization", "processing"],
-      "keywords": ["fpo", "farmer", "organization", "processing", "cooperative"]
-    },
-    {
-      "id": "pension-scheme",
-      "name": "PM-SYM",
-      "fullName": "Pradhan Mantri Shram Yogi Maan-dhan",
-      "category": "pension",
-      "description": "Voluntary pension scheme for unorganized sector workers aged 18-40 years.",
-      "benefits": [
-        "Assured monthly pension of ₹3,000 after 60 years",
-        "Family pension in case of death during contribution",
-        "Government co-contribution equal to worker's contribution"
-      ],
-      "eligibility": [
-        "Unorganized sector workers aged 18-40",
-        "Monthly income up to ₹15,000",
-        "Not covered under EPF/ESIC/NPS"
-      ],
-      "targetAudience": ["pension", "worker", "retirement"],
-      "keywords": ["pension", "retirement", "worker", "shram", "yogi"]
+      "keywords": ["loan", "mudra", "business", "micro", "enterprise"],
+      "link": "https://www.mudra.org.in",
+      "suggestion": "Start or expand your small business 💡"
     },
     {
       "id": "jal-jeevan-mission",
@@ -207,102 +352,9 @@
         "Community ownership and operation"
       ],
       "targetAudience": ["water", "tap", "connection"],
-      "keywords": ["water", "jal", "tap", "connection", "pipeline"]
-    },
-    {
-      "id": "samagra-shiksha",
-      "name": "Samagra Shiksha",
-      "fullName": "Samagra Shiksha Abhiyan",
-      "category": "education",
-      "description": "Integrated scheme for school education from pre-school to class XII.",
-      "benefits": [
-        "Free textbooks and uniforms",
-        "Mid-day meal program",
-        "Infrastructure development support"
-      ],
-      "eligibility": [
-        "All children aged 6-14 years",
-        "Government and government-aided schools",
-        "Focus on girl child education"
-      ],
-      "targetAudience": ["education", "school", "children"],
-      "keywords": ["education", "school", "children", "learning", "books"]
-    },
-    {
-      "id": "kisan-credit-card",
-      "name": "Kisan Credit Card",
-      "fullName": "Kisan Credit Card Scheme",
-      "category": "agriculture",
-      "description": "Provides timely credit support for comprehensive credit needs of farmers.",
-      "benefits": [
-        "Credit limit based on cropping pattern and scale of finance",
-        "Interest rate of 7% per annum",
-        "3% interest subvention by government"
-      ],
-      "eligibility": [
-        "All farmers - individual/joint borrowers",
-        "Tenant farmers, oral lessees, sharecroppers",
-        "Self Help Group members engaged in farming"
-      ],
-      "targetAudience": ["farmers", "credit", "loan"],
-      "keywords": ["kisan", "credit", "card", "loan", "farming"]
-    },
-    {
-      "id": "pradhan-mantri-gram-sadak-yojana",
-      "name": "PMGSY",
-      "fullName": "Pradhan Mantri Gram Sadak Yojana",
-      "category": "infrastructure",
-      "description": "Provides connectivity to unconnected habitations in rural areas through good all-weather roads.",
-      "benefits": [
-        "All-weather road connectivity",
-        "Quality construction and maintenance",
-        "Integration with other rural development programs"
-      ],
-      "eligibility": [
-        "Habitations with population 500+ (250+ in tribal/desert areas)",
-        "Unconnected habitations identified in core network",
-        "Focus on remote and backward areas"
-      ],
-      "targetAudience": ["infrastructure", "roads", "connectivity"],
-      "keywords": ["road", "sadak", "connectivity", "village", "transport"]
-    },
-    {
-      "id": "stand-up-india",
-      "name": "Stand Up India",
-      "fullName": "Stand Up India Scheme",
-      "category": "employment",
-      "description": "Facilitates bank loans between ₹10 lakh to ₹1 crore for SC/ST and women entrepreneurs.",
-      "benefits": [
-        "Bank loans from ₹10 lakh to ₹1 crore",
-        "Preferential lending to women and marginalized communities",
-        "Handholding support and credit guarantee"
-      ],
-      "eligibility": [
-        "SC/ST and/or women entrepreneurs aged 18 years and above",
-        "Greenfield enterprises in manufacturing, services or trading",
-        "Borrower should not be in default to any bank"
-      ],
-      "targetAudience": ["entrepreneur", "women", "loan"],
-      "keywords": ["entrepreneur", "loan", "women", "business", "startup"]
-    },
-    {
-      "id": "digital-india-land-records",
-      "name": "Digital India Land Records",
-      "fullName": "Digital India Land Records Modernization",
-      "category": "digital",
-      "description": "Modernization of land records through digitization and online access.",
-      "benefits": [
-        "Online access to land records",
-        "Reduced disputes and litigation",
-        "Transparent and efficient land administration"
-      ],
-      "eligibility": [
-        "All landowners in participating states",
-        "Revenue villages covered under the program",
-        "Digital literacy helpful but not mandatory"
-      ],
-      "targetAudience": ["digital", "land", "records"],
-      "keywords": ["digital", "land", "records", "online", "property"]
+      "keywords": ["water", "jal", "tap", "connection", "pipeline"],
+      "link": "https://jaljeevanmission.gov.in",
+      "suggestion": "Ensure clean water access for your household 💧"
     },
     {
       "id": "forest-rights-act",
@@ -321,7 +373,9 @@
         "Dependent on forest for bona fide needs"
       ],
       "targetAudience": ["forest", "tribal", "rights"],
-      "keywords": ["forest", "rights", "tribal", "dwelling", "produce"]
+      "keywords": ["forest", "rights", "tribal", "dwelling", "produce"],
+      "link": "https://tribal.nic.in",
+      "suggestion": "Claim your traditional forest rights 🌲"
     },
     {
       "id": "van-dhan-yojana",
@@ -340,45 +394,30 @@
         "Focus on Minor Forest Produce value chain"
       ],
       "targetAudience": ["tribal", "forest", "produce"],
-      "keywords": ["van", "dhan", "tribal", "forest", "produce", "mfp"]
+      "keywords": ["van", "dhan", "tribal", "forest", "produce", "mfp"],
+      "link": "https://trifed.tribal.gov.in",
+      "suggestion": "Add value to forest produce for better income 🌿"
     },
     {
-      "id": "eklavya-model-schools",
-      "name": "Eklavya Model Schools",
-      "fullName": "Eklavya Model Residential Schools",
-      "category": "education",
-      "description": "Quality education to tribal students in their medium of instruction with focus on preserving local art and culture.",
+      "id": "kisan-credit-card",
+      "name": "Kisan Credit Card",
+      "fullName": "Kisan Credit Card Scheme",
+      "category": "agriculture",
+      "description": "Provides timely credit support for comprehensive credit needs of farmers.",
       "benefits": [
-        "Residential schooling for tribal children",
-        "Education in local language and culture",
-        "Modern facilities and quality education"
+        "Credit limit based on cropping pattern and scale of finance",
+        "Interest rate of 7% per annum",
+        "3% interest subvention by government"
       ],
       "eligibility": [
-        "Tribal children in areas with 50%+ tribal population",
-        "Focus on aspirational and tribal districts",
-        "Preference to children from remote areas"
+        "All farmers - individual/joint borrowers",
+        "Tenant farmers, oral lessees, sharecroppers",
+        "Self Help Group members engaged in farming"
       ],
-      "targetAudience": ["education", "tribal", "residential"],
-      "keywords": ["eklavya", "tribal", "education", "residential", "school"]
-    },
-    {
-      "id": "pm-jan-aushadhi",
-      "name": "Jan Aushadhi",
-      "fullName": "Pradhan Mantri Bharatiya Janaushadhi Pariyojana",
-      "category": "health",
-      "description": "Provides quality generic medicines at affordable prices through Jan Aushadhi stores.",
-      "benefits": [
-        "Generic medicines at 50-90% lower prices",
-        "Quality assurance of medicines",
-        "Wide network of Jan Aushadhi stores"
-      ],
-      "eligibility": [
-        "All citizens can purchase from Jan Aushadhi stores",
-        "No specific eligibility criteria",
-        "Prescription required for scheduled medicines"
-      ],
-      "targetAudience": ["health", "medicine", "affordable"],
-      "keywords": ["medicine", "aushadhi", "generic", "affordable", "health"]
+      "targetAudience": ["farmers", "credit", "loan"],
+      "keywords": ["kisan", "credit", "card", "loan", "farming"],
+      "link": "https://www.nabard.org",
+      "suggestion": "Get easy agricultural credit for farming needs 🌾"
     }
   ]
 }

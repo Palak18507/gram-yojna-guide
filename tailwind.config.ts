@@ -66,6 +66,13 @@ export default {
           employment: "hsl(var(--scheme-employment))",
           housing: "hsl(var(--scheme-housing))",
           education: "hsl(var(--scheme-education))",
+          forest: "hsl(var(--scheme-forest))",
+          energy: "hsl(var(--scheme-energy))",
+          finance: "hsl(var(--scheme-finance))",
+          pension: "hsl(var(--scheme-pension))",
+          digital: "hsl(var(--scheme-digital))",
+          sanitation: "hsl(var(--scheme-sanitation))",
+          water: "hsl(var(--scheme-water))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

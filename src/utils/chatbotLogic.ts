@@ -51,7 +51,7 @@ export const processQuery = (
     return {
       type: 'suggestion',
       content: `💡 Here are schemes related to your query:`,
-      schemes: categorySchemes.slice(0, 5)
+      schemes: categorySchemes.slice(0, 6)
     };
   }
 
@@ -61,7 +61,7 @@ export const processQuery = (
     return {
       type: 'suggestion',
       content: `💼 Based on your occupation, here are relevant schemes:`,
-      schemes: occupationSchemes.slice(0, 4)
+      schemes: occupationSchemes.slice(0, 5)
     };
   }
 
@@ -96,7 +96,16 @@ const findSchemeByQuery = (query: string, schemes: Scheme[]): Scheme | null => {
       'employment': 'mgnrega',
       'health insurance': 'ayushman-bharat',
       'housing': 'pmay-gramin',
-      'forest rights': 'forest-rights-act'
+      'forest rights': 'forest-rights-act',
+      'jan dhan': 'jan-dhan-yojana',
+      'skill': 'skill-india',
+      'pension': 'atal-pension-yojana',
+      'scholarship': 'national-scholarship-portal',
+      'swachh': 'swachh-bharat-mission',
+      'digital': 'digital-india',
+      'van dhan': 'van-dhan-yojana',
+      'credit card': 'kisan-credit-card',
+      'jal jeevan': 'jal-jeevan-mission'
     };
 
     for (const [key, schemeId] of Object.entries(fuzzyMatches)) {
@@ -119,14 +128,17 @@ const findVillageByQuery = (query: string, villages: Village[]): Village | null 
 
 const findSchemesByCategory = (query: string, schemes: Scheme[]): Scheme[] => {
   const categoryKeywords: Record<string, string[]> = {
-    agriculture: ['farm', 'agriculture', 'crop', 'farming', 'kisan', 'farmer'],
-    health: ['health', 'medical', 'hospital', 'treatment', 'insurance'],
-    employment: ['job', 'work', 'employment', 'income', 'business', 'loan'],
-    housing: ['house', 'home', 'housing', 'shelter', 'construction'],
-    education: ['education', 'school', 'study', 'learning', 'student'],
-    forest: ['forest', 'tree', 'tribal', 'jungle', 'wood'],
-    energy: ['energy', 'gas', 'fuel', 'cooking', 'lpg'],
-    water: ['water', 'jal', 'tap', 'pipeline']
+    agriculture: ['farm', 'agriculture', 'crop', 'farming', 'kisan', 'farmer', 'credit card'],
+    health: ['health', 'medical', 'hospital', 'treatment', 'insurance', 'swasthya', 'bima'],
+    employment: ['job', 'work', 'employment', 'income', 'business', 'loan', 'livelihood', 'mudra'],
+    housing: ['house', 'home', 'housing', 'shelter', 'construction', 'awas'],
+    education: ['education', 'school', 'study', 'learning', 'student', 'scholarship', 'skill'],
+    forest: ['forest', 'tree', 'tribal', 'jungle', 'wood', 'van', 'dhan'],
+    energy: ['energy', 'gas', 'fuel', 'cooking', 'lpg', 'ujjwala'],
+    water: ['water', 'jal', 'tap', 'pipeline'],
+    finance: ['bank', 'account', 'jan dhan', 'pension', 'savings', 'finance', 'atal'],
+    sanitation: ['toilet', 'sanitation', 'swachh', 'clean'],
+    digital: ['digital', 'online', 'technology', 'internet']
   };
 
   const matchedCategories: string[] = [];
@@ -146,11 +158,13 @@ const findSchemesByCategory = (query: string, schemes: Scheme[]): Scheme[] => {
 
 const findSchemesByOccupation = (query: string, schemes: Scheme[]): Scheme[] => {
   const occupationKeywords: Record<string, string[]> = {
-    farmer: ['pm-kisan', 'pm-fasal-bima', 'kisan-credit-card', 'pm-kisan-fpo'],
-    business: ['pm-mudra', 'stand-up-india'],
-    worker: ['mgnrega', 'pension-scheme'],
-    tribal: ['forest-rights-act', 'van-dhan-yojana', 'eklavya-model-schools'],
-    women: ['pm-ujjwala', 'stand-up-india']
+    farmer: ['pm-kisan', 'pm-fasal-bima', 'kisan-credit-card'],
+    business: ['pm-mudra', 'national-rural-livelihood-mission'],
+    worker: ['mgnrega', 'pm-shram-yogi-mandhan'],
+    tribal: ['forest-rights-act', 'van-dhan-yojana'],
+    women: ['pm-ujjwala', 'national-rural-livelihood-mission'],
+    student: ['national-scholarship-portal', 'skill-india'],
+    youth: ['skill-india', 'national-rural-livelihood-mission']
   };
 
   const matchedOccupations: string[] = [];
@@ -201,7 +215,7 @@ const handleRecommendationQuery = (
   const topSchemes = getTopRecommendations(schemes);
   return {
     type: 'suggestion',
-    content: `💡 Here are the top 3 recommended government schemes:`,
+    content: `💡 Here are the top recommended government schemes:`,
     schemes: topSchemes
   };
 };
@@ -255,7 +269,7 @@ export const getVillageRecommendations = (village: Village, schemes: Scheme[]): 
 };
 
 const getTopRecommendations = (schemes: Scheme[]): Scheme[] => {
-  // Popular schemes that apply to most communities
-  const topSchemeIds = ['pm-kisan', 'ayushman-bharat', 'mgnrega'];
+  // Popular schemes that apply to most communities - return more schemes
+  const topSchemeIds = ['pm-kisan', 'ayushman-bharat', 'mgnrega', 'jan-dhan-yojana', 'pm-ujjwala'];
   return schemes.filter(scheme => topSchemeIds.includes(scheme.id));
 };

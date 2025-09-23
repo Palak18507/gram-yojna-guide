@@ -33,6 +33,13 @@
     --scheme-employment: 217 91% 60%;
     --scheme-housing: 271 81% 56%;
     --scheme-education: 262 83% 58%;
+    --scheme-forest: 120 60% 35%;
+    --scheme-energy: 32 95% 50%;
+    --scheme-finance: 142 71% 45%;
+    --scheme-pension: 271 81% 56%;
+    --scheme-digital: 217 91% 60%;
+    --scheme-sanitation: 86 78% 45%;
+    --scheme-water: 197 71% 73%;
 
     /* Chat-specific colors */
     --chat-user: 142 76% 36%;
@@ -141,6 +148,34 @@
   
   .scheme-education {
     @apply bg-[hsl(var(--scheme-education))]/20 text-[hsl(var(--scheme-education))] border border-[hsl(var(--scheme-education))]/30;
+  }
+  
+  .scheme-forest {
+    @apply bg-[hsl(var(--scheme-forest))]/20 text-[hsl(var(--scheme-forest))] border border-[hsl(var(--scheme-forest))]/30;
+  }
+  
+  .scheme-energy {
+    @apply bg-[hsl(var(--scheme-energy))]/20 text-[hsl(var(--scheme-energy))] border border-[hsl(var(--scheme-energy))]/30;
+  }
+  
+  .scheme-finance {
+    @apply bg-[hsl(var(--scheme-finance))]/20 text-[hsl(var(--scheme-finance))] border border-[hsl(var(--scheme-finance))]/30;
+  }
+  
+  .scheme-pension {
+    @apply bg-[hsl(var(--scheme-pension))]/20 text-[hsl(var(--scheme-pension))] border border-[hsl(var(--scheme-pension))]/30;
+  }
+  
+  .scheme-digital {
+    @apply bg-[hsl(var(--scheme-digital))]/20 text-[hsl(var(--scheme-digital))] border border-[hsl(var(--scheme-digital))]/30;
+  }
+  
+  .scheme-sanitation {
+    @apply bg-[hsl(var(--scheme-sanitation))]/20 text-[hsl(var(--scheme-sanitation))] border border-[hsl(var(--scheme-sanitation))]/30;
+  }
+  
+  .scheme-water {
+    @apply bg-[hsl(var(--scheme-water))]/20 text-[hsl(var(--scheme-water))] border border-[hsl(var(--scheme-water))]/30;
   }
 
   /* Gradients */
