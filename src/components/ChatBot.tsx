@@ -3,7 +3,6 @@ import { Send, Bot, MapPin, Lightbulb } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Card } from './ui/card';
 import MessageBubble from './MessageBubble';
 import { processQuery, getVillageRecommendations } from '../utils/chatbotLogic';
 import { Village, Scheme } from '../types/chatbot';
@@ -49,12 +48,8 @@ const ChatBot = () => {
   }, []);
 
   useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
-
-  const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  };
+  }, [messages]);
 
   const addMessage = (message: Omit<Message, 'id' | 'timestamp'>) => {
     const newMessage: Message = {
@@ -75,9 +70,7 @@ const ChatBot = () => {
         content: `Selected village: ${village.name}`
       });
 
-      setTimeout(() => {
-        setIsTyping(true);
-      }, 500);
+      setTimeout(() => setIsTyping(true), 500);
 
       setTimeout(() => {
         setIsTyping(false);

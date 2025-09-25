@@ -12,10 +12,12 @@
         "No land size limit for eligibility"
       ],
       "eligibility": [
-        "All small and marginal farmers",
-        "Landholding farmers across the country",
-        "Aadhaar card mandatory"
+        "Small and marginal farmers owning cultivable land up to 2 hectares (as per land records)",
+        "Excludes institutional landholders, government employees, taxpayers",
+        "Aadhaar card and bank account mandatory"
       ],
+      "landRequirements": "Up to 2 hectares cultivable land in farmer’s name as on 1 Feb 2019",
+      "waterRequirements": "No direct requirement, but irrigation facilities improve sustainability",
       "targetAudience": ["farmers", "agriculture"],
       "keywords": ["kisan", "farmer", "agriculture", "income", "support"],
       "link": "https://pmkisan.gov.in",
@@ -33,9 +35,11 @@
         "Work within 5km of residence"
       ],
       "eligibility": [
-        "Adult rural household members willing to do unskilled work",
+        "Adult members of rural households willing to do unskilled work",
         "Job card registration required"
       ],
+      "landRequirements": "Not applicable (employment-based scheme)",
+      "waterRequirements": "Water availability only if project involves irrigation, ponds, or watershed works",
       "targetAudience": ["rural", "employment", "labor"],
       "keywords": ["employment", "work", "wages", "rural", "job", "nrega"],
       "link": "https://nrega.nic.in",
@@ -53,10 +57,11 @@
         "Subsidy on home loans"
       ],
       "eligibility": [
-        "EWS and LIG families",
-        "Families not owning a pucca house",
+        "EWS and LIG families not owning a pucca house",
         "Priority to SC/ST, minorities, and women-headed households"
       ],
+      "landRequirements": "Beneficiary must have land for house construction or receive land from state",
+      "waterRequirements": "Household must have access to drinking water and sanitation facilities",
       "targetAudience": ["housing", "rural", "shelter"],
       "keywords": ["house", "housing", "awas", "shelter", "construction"],
       "link": "https://pmaymis.gov.in",
@@ -76,8 +81,10 @@
       "eligibility": [
         "Poor and vulnerable families",
         "Families identified in SECC-2011 database",
-        "Rural families with specific deprivation criteria"
+        "Rural families meeting deprivation criteria"
       ],
+      "landRequirements": "Not land dependent",
+      "waterRequirements": "Indirectly dependent on clean water for preventive health measures",
       "targetAudience": ["health", "medical", "insurance"],
       "keywords": ["health", "medical", "insurance", "hospital", "treatment"],
       "link": "https://www.pmjay.gov.in",
@@ -95,10 +102,12 @@
         "Quick settlement of claims"
       ],
       "eligibility": [
-        "All farmers growing notified crops",
-        "Both loanee and non-loanee farmers eligible",
-        "Tenant farmers with proper documentation"
+        "Farmers growing notified crops in notified areas",
+        "Loanee and non-loanee farmers eligible",
+        "Tenant farmers with valid documentation"
       ],
+      "landRequirements": "Cultivable land with notified crops in notified geographical areas",
+      "waterRequirements": "Irrigation or rainfall dependency affects insurance claims",
       "targetAudience": ["farmers", "agriculture", "insurance"],
       "keywords": ["crop", "insurance", "fasal", "bima", "farmer"],
       "link": "https://pmfby.gov.in",
@@ -116,10 +125,11 @@
         "Support for safe cooking fuel"
       ],
       "eligibility": [
-        "Women from BPL households",
         "Women aged 18 and above from BPL families",
-        "Priority to SC/ST, PMAY, AAY families"
+        "Priority for SC/ST, PMAY, AAY households"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["energy", "cooking", "women"],
       "keywords": ["lpg", "gas", "cooking", "ujjwala", "fuel"],
       "link": "https://pmuy.gov.in",
@@ -137,10 +147,12 @@
         "Market linkage support"
       ],
       "eligibility": [
-        "Rural women and households",
-        "Poor and vulnerable families",
-        "Self Help Group members"
+        "Rural women and poor households",
+        "Self Help Group members",
+        "Priority to vulnerable families"
       ],
+      "landRequirements": "Not mandatory, but land may be required for enterprise activities",
+      "waterRequirements": "Indirect dependency if livelihood is agriculture/irrigation-based",
       "targetAudience": ["rural", "women", "employment", "livelihood"],
       "keywords": ["livelihood", "rural", "women", "self help group", "microfinance"],
       "link": "https://aajeevika.gov.in",
@@ -159,9 +171,11 @@
       ],
       "eligibility": [
         "All Indian citizens without a bank account",
-        "No minimum balance requirement",
+        "No minimum balance required",
         "Age 10 years and above"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["finance", "banking", "inclusion"],
       "keywords": ["bank", "account", "jan dhan", "finance", "insurance"],
       "link": "https://pmjdy.gov.in",
@@ -181,8 +195,10 @@
       "eligibility": [
         "Youth and working professionals",
         "Age 15-45 years",
-        "School/college dropouts priority"
+        "Priority for school/college dropouts"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["youth", "education", "skills", "employment"],
       "keywords": ["skill", "training", "employment", "youth", "kaushal"],
       "link": "https://www.skillindia.gov.in",
@@ -201,9 +217,11 @@
       ],
       "eligibility": [
         "Unorganized sector workers aged 18-40",
-        "Citizens with bank account",
-        "Not covered under statutory social security schemes"
+        "Must have a bank account",
+        "Not covered under other statutory social security schemes"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["pension", "retirement", "savings"],
       "keywords": ["pension", "retirement", "atal", "savings", "old age"],
       "link": "https://www.npscra.nsdl.co.in",
@@ -216,15 +234,16 @@
       "category": "health",
       "description": "Health insurance for BPL families.",
       "benefits": [
-        "Cashless health insurance for hospitalization",
+        "Cashless hospitalization",
         "Coverage up to ₹30,000 per family per year",
-        "Pre-existing disease coverage"
+        "Pre-existing diseases covered"
       ],
       "eligibility": [
-        "BPL families",
-        "Families identified through BPL census",
+        "BPL families identified through census",
         "Specific occupational categories"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Indirect dependency on clean water for better health outcomes",
       "targetAudience": ["health", "insurance", "BPL"],
       "keywords": ["health", "insurance", "bpl", "rashtriya", "swasthya"],
       "link": "https://rsby.gov.in",
@@ -242,10 +261,11 @@
         "Local project grants"
       ],
       "eligibility": [
-        "Open for all citizens",
-        "Rural households without access to toilets",
-        "Community participation essential"
+        "Rural households without toilets",
+        "Community participation required"
       ],
+      "landRequirements": "Households must have land space for toilet construction",
+      "waterRequirements": "Access to functional water source needed for sanitation use",
       "targetAudience": ["sanitation", "toilet", "hygiene"],
       "keywords": ["toilet", "sanitation", "swachh", "clean", "hygiene"],
       "link": "https://swachhbharatmission.gov.in",
@@ -263,10 +283,10 @@
         "Digital literacy programs"
       ],
       "eligibility": [
-        "All citizens, businesses, government departments",
-        "No specific eligibility criteria",
-        "Focus on rural and underserved areas"
+        "All citizens, businesses, and institutions"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["digital", "technology", "governance"],
       "keywords": ["digital", "online", "technology", "internet", "e-governance"],
       "link": "https://www.digitalindia.gov.in",
@@ -280,14 +300,16 @@
       "description": "Pension for unorganized workers after 60 years.",
       "benefits": [
         "Monthly pension of ₹3000",
-        "Family pension in case of death during contribution",
-        "Government co-contribution equal to worker's contribution"
+        "Family pension in case of subscriber’s death",
+        "Government co-contribution"
       ],
       "eligibility": [
         "Workers aged 18-40",
-        "Unorganized sector workers",
+        "Unorganized sector",
         "Monthly income up to ₹15,000"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["pension", "worker", "retirement"],
       "keywords": ["pension", "retirement", "worker", "shram", "yogi"],
       "link": "https://www.pmsy.gov.in",
@@ -300,15 +322,16 @@
       "category": "education",
       "description": "Financial support for students from class 1 to PhD.",
       "benefits": [
-        "Scholarships directly into bank accounts",
-        "Various scholarships for different categories",
+        "Scholarships transferred directly to bank accounts",
+        "Multiple schemes for SC/ST, OBC, minorities, and others",
         "Merit and need-based support"
       ],
       "eligibility": [
-        "Students eligible for various scholarships",
-        "Different criteria for different schemes",
-        "Income and merit-based eligibility"
+        "Students from class 1 to PhD",
+        "Income and merit criteria depending on scheme"
       ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not applicable",
       "targetAudience": ["students", "education", "scholarship"],
       "keywords": ["scholarship", "education", "student", "study", "financial aid"],
       "link": "https://scholarships.gov.in",
@@ -327,9 +350,10 @@
       ],
       "eligibility": [
         "Non-corporate, non-farm enterprises",
-        "Manufacturing, trading, or service activities",
-        "Income generating activities"
+        "Manufacturing, trading, or service activities"
       ],
+      "landRequirements": "Not mandatory, unless enterprise requires land setup",
+      "waterRequirements": "Indirect requirement if enterprise involves food, textiles, or agriculture",
       "targetAudience": ["business", "entrepreneur", "loan"],
       "keywords": ["loan", "mudra", "business", "micro", "enterprise"],
       "link": "https://www.mudra.org.in",
@@ -342,15 +366,16 @@
       "category": "water",
       "description": "Provides functional household tap connections to every rural household by 2024.",
       "benefits": [
-        "Assured water supply of 55 litres per person per day",
-        "Functional tap connection to every household",
-        "Community participation in planning and implementation"
+        "55 litres per person per day",
+        "Tap connection to every rural household",
+        "Community participation in planning"
       ],
       "eligibility": [
-        "All rural households in the country",
-        "Priority to water-stressed and drought-prone areas",
-        "Community ownership and operation"
+        "All rural households without existing tap connection",
+        "Priority for water-stressed and drought-prone areas"
       ],
+      "landRequirements": "Not land dependent, but village infrastructure required for pipelines",
+      "waterRequirements": "Functional water source (groundwater/surface water) with sustainability assessment",
       "targetAudience": ["water", "tap", "connection"],
       "keywords": ["water", "jal", "tap", "connection", "pipeline"],
       "link": "https://jaljeevanmission.gov.in",
@@ -361,63 +386,120 @@
       "name": "Forest Rights Act",
       "fullName": "Scheduled Tribes and Other Traditional Forest Dwellers Act",
       "category": "forest",
-      "description": "Recognition of forest rights of forest dwelling Scheduled Tribes and other traditional forest dwellers.",
+      "description": "Recognizes forest rights of tribal and traditional dwellers.",
       "benefits": [
-        "Individual and community forest rights recognition",
-        "Right to forest produce collection and sale",
-        "Protection from forced displacement"
+        "Land rights up to 4 hectares",
+        "Access to minor forest produce",
+        "Community forest resource rights"
       ],
       "eligibility": [
-        "Scheduled Tribes and other traditional forest dwellers",
-        "Primarily residing in forests for livelihood",
-        "Dependent on forest for bona fide needs"
+        "STs and OTFDs residing in forest areas before Dec 2005",
+        "Proof of continuous residence and dependency on forest land"
       ],
-      "targetAudience": ["forest", "tribal", "rights"],
-      "keywords": ["forest", "rights", "tribal", "dwelling", "produce"],
+      "landRequirements": "Up to 4 hectares of forest land recognized per family",
+      "waterRequirements": "Indirect water rights via access to forest ponds, rivers, and watershed areas",
+      "targetAudience": ["tribal", "forest", "rights"],
+      "keywords": ["forest", "rights", "tribal", "land", "act"],
       "link": "https://tribal.nic.in",
-      "suggestion": "Claim your traditional forest rights 🌲"
+      "suggestion": "Secure your rights if you live in forest areas 🌳"
     },
+    
     {
-      "id": "van-dhan-yojana",
-      "name": "Van Dhan Yojana",
-      "fullName": "Pradhan Mantri Van Dhan Yojana",
-      "category": "forest",
-      "description": "Skill upgradation and capacity building program for tribal gatherers of Minor Forest Produce.",
-      "benefits": [
-        "Value addition training for MFP",
-        "Market linkage support",
-        "Income enhancement for tribal communities"
-      ],
-      "eligibility": [
-        "Tribal gatherers and forest dwellers",
-        "Self Help Groups in tribal areas",
-        "Focus on Minor Forest Produce value chain"
-      ],
-      "targetAudience": ["tribal", "forest", "produce"],
-      "keywords": ["van", "dhan", "tribal", "forest", "produce", "mfp"],
-      "link": "https://trifed.tribal.gov.in",
-      "suggestion": "Add value to forest produce for better income 🌿"
-    },
-    {
-      "id": "kisan-credit-card",
-      "name": "Kisan Credit Card",
-      "fullName": "Kisan Credit Card Scheme",
+      "id": "pm-kisan",
+      "name": "PM-KISAN",
+      "fullName": "Pradhan Mantri Kisan Samman Nidhi",
       "category": "agriculture",
-      "description": "Provides timely credit support for comprehensive credit needs of farmers.",
+      "description": "Income support of ₹6,000/year for small/marginal farmers.",
       "benefits": [
-        "Credit limit based on cropping pattern and scale of finance",
-        "Interest rate of 7% per annum",
-        "3% interest subvention by government"
+        "₹2,000 per instalment, 3 times a year",
+        "Direct transfer to bank account",
+        "No land size limit for eligibility"
       ],
       "eligibility": [
-        "All farmers - individual/joint borrowers",
-        "Tenant farmers, oral lessees, sharecroppers",
-        "Self Help Group members engaged in farming"
+        "Small and marginal farmers owning cultivable land up to 2 hectares",
+        "Excludes institutional landholders, government employees, taxpayers",
+        "Aadhaar card and bank account mandatory"
       ],
-      "targetAudience": ["farmers", "credit", "loan"],
-      "keywords": ["kisan", "credit", "card", "loan", "farming"],
-      "link": "https://www.nabard.org",
-      "suggestion": "Get easy agricultural credit for farming needs 🌾"
+      "landRequirements": "Up to 2 hectares cultivable land",
+      "waterRequirements": "No specific requirement",
+      "targetAudience": ["farmers", "agriculture"],
+      "keywords": ["kisan", "farmer", "income support"],
+      "link": "https://pmkisan.gov.in",
+      "suggestion": "Check if you're eligible! 🌱",
+      "isCSS": false
+    },
+    {
+      "id": "mgnrega",
+      "name": "MGNREGA",
+      "fullName": "Mahatma Gandhi National Rural Employment Guarantee Act",
+      "category": "employment",
+      "description": "Provides at least 100 days of wage employment per year.",
+      "benefits": [
+        "Guaranteed 100 days employment per household",
+        "Wages for work done, social security",
+        "Work within 5km of residence"
+      ],
+      "eligibility": [
+        "Adult rural household members willing to do unskilled work",
+        "Job card registration required"
+      ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Not directly applicable (unless work is water projects)",
+      "targetAudience": ["rural", "employment", "labor"],
+      "keywords": ["employment", "work", "nrega", "job"],
+      "link": "https://nrega.nic.in",
+      "suggestion": "If you need work, this is a good option 💡",
+      "isCSS": true
+    },
+    {
+      "id": "ra-sby",
+      "name": "Rashtriya Swasthya Bima Yojana",
+      "fullName": "Rashtriya Swasthya Bima Yojana",
+      "category": "health",
+      "description": "Health insurance for BPL families.",
+      "benefits": [
+        "Cashless hospitalization",
+        "Coverage up to ₹30,000 per family per year",
+        "Pre-existing disease coverage"
+      ],
+      "eligibility": [
+        "BPL families identified through census",
+        "Specific occupational categories"
+      ],
+      "landRequirements": "Not applicable",
+      "waterRequirements": "Indirect dependency on clean water for health",
+      "targetAudience": ["health", "insurance", "BPL"],
+      "keywords": ["health", "insurance", "bpl"],
+      "link": "https://rsby.gov.in",
+      "suggestion": "Enroll to protect your family from medical expenses 💡",
+      "isCSS": true
+    },
+    {
+      "id": "css-dajgua",
+      "name": "DAJGUA",
+      "fullName": "Dharti Aaba Janjatiya Gram Utkarsh Abhiyan",
+      "category": "water",
+      "description": "Tribals’ development and water & infrastructure convergence scheme covering 25 interventions.",
+      "benefits": [
+        "Water supply infrastructure in tribal villages",
+        "Convergence with multiple line ministries",
+        "Bridging gaps in health, education, livelihood in tribal areas"
+      ],
+      "eligibility": [
+        "Tribal-majority villages or aspirational districts",
+        "Villages with water stress or infrastructure gaps",
+        "FRA recognized villages prioritized"
+      ],
+      "landRequirements": "Community land for water infrastructure",
+      "waterRequirements": "Identified as water-stressed or low water index village",
+      "targetAudience": ["tribal", "water", "village development"],
+      "keywords": ["DAJGUA", "Jal Shakti", "tribal infrastructure", "CSS"],
+      "link": "https://www.tribal.nic.in/downloads/dajgua/DAJGUAguidelines-30102024.pdf",
+      "suggestion": "If your village is tribal & water-stressed, you may benefit from DAJGUA",
+      "isCSS": true
     }
   ]
+
+
+  
 }

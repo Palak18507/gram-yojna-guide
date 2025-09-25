@@ -1,13 +1,15 @@
 export interface Scheme {
   id: string;
   name: string;
-  fullName: string;
+  fullName?: string;
   category: string;
   description: string;
-  benefits: string[];
-  eligibility: string[];
-  targetAudience: string[];
+  benefits?: string[];
   keywords: string[];
+  targetAudience?: string[];
+  eligibility?: string[];          // optional
+  landRequirements?: string;       // optional
+  waterRequirements?: string;      // optional
 }
 
 export interface Village {

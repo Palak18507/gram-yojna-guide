@@ -113,6 +113,34 @@ const MessageBubble = ({ message }: MessageBubbleProps) => {
                         </ul>
                       </div>
                     )}
+
+                    {scheme.eligibility && (
+                      <div className="mt-2">
+                        <p className="text-xs font-medium text-primary mb-1">Eligibility:</p>
+                        <ul className="text-xs space-y-1">
+                          {scheme.eligibility.map((criteria, index) => (
+                            <li key={index} className="flex items-start gap-1">
+                              <span className="text-primary">•</span>
+                              <span className="text-muted-foreground">{criteria}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {scheme.landRequirements && (
+                      <div className="mt-2">
+                        <p className="text-xs font-medium text-primary mb-1">Land Requirements:</p>
+                        <p className="text-xs text-muted-foreground">{scheme.landRequirements}</p>
+                      </div>
+                    )}
+
+                    {scheme.waterRequirements && (
+                      <div className="mt-2">
+                        <p className="text-xs font-medium text-primary mb-1">Water Requirements:</p>
+                        <p className="text-xs text-muted-foreground">{scheme.waterRequirements}</p>
+                      </div>
+                    )}
                   </Card>
                 ))}
               </div>
